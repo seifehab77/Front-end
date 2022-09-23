@@ -1,0 +1,146 @@
+.circle {
+    background: #000000c2;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.ohh {
+    background: #000000c2;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 830px;
+    top: 14px;
+}
+
+.ohhh {
+    background: #000000c2;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 830px;
+    top: 216px;
+}
+
+.circle h1 {
+    padding: 28px 2px;
+    text-align: center;
+    color: wheat;
+}
+
+.ohh h1 {
+    padding: 7px 2px;
+    text-align: center;
+    color: wheat;
+}
+
+.ohhh h1 {
+    padding: 7px 2px;
+    text-align: center;
+    color: wheat;
+}
+
+.circlee {
+    background: #000000c2;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 225px;
+}
+
+.circleee {
+    background: #000000c2;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 428px;
+}
+
+.circlee h1 {
+    padding: 10px 2px;
+    text-align: center;
+    color: wheat;
+}
+
+.circleee h1 {
+    padding: 10px 2px;
+    text-align: center;
+    color: wheat;
+}
+
+.big::after {
+    content: '';
+    width: 4px;
+    height: 105px;
+    background-color: #000000c2;
+    position: absolute;
+    top: 121px;
+    left: 55px;
+}
+
+.circlee::after {
+    content: '';
+    width: 4px;
+    height: 107px;
+    background-color: #000000c2;
+    position: absolute;
+    top: 97px;
+    left: 49px;
+}
+
+.ohh::after {
+    content: '';
+    width: 4px;
+    height: 107px;
+    background-color: #000000c2;
+    position: absolute;
+    top: 97px;
+    left: 49px;
+}
+
+.ohhh::after {
+    content: '';
+    width: 4px;
+    height: 107px;
+    background-color: #000000c2;
+    position: absolute;
+    top: 97px;
+    left: 49px;
+}
+
+.words {
+    position: absolute;
+    top: 27px;
+    left: 122px;
+}
+
+.text {
+    position: absolute;
+    top: 2px;
+    left: 122px;
+    width: 505px;
+}
+
+.texxt {
+    position: absolute;
+    top: 2px;
+    left: 122px;
+    width: 505px;
+}
+
+.wordss {
+    position: absolute;
+    top: 238px;
+    left: 122px;
+}
+
+.wors {
+    position: absolute;
+    top: 439px;
+    left: 122px;
+}

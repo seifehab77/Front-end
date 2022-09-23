@@ -1,0 +1,153 @@
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        .header {
+            width: 100%;
+            height: 534px;
+            background-image: url(img/background-01.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 1px;
+            ;
+        }
+        
+        .header .menuaa {
+            background-color: #0000006e;
+            margin: 49px auto;
+            padding: 4px;
+            width: 96%;
+            height: 34px;
+        }
+        
+        .header .menuaa a {
+            text-decoration: none;
+            font-size: 21px;
+            margin: 37px auto;
+            padding: 88px;
+            color: white;
+        }
+        
+        .header .text {
+            color: white;
+            font-size: 20px;
+            margin: 50px;
+            padding: 3px;
+        }
+        
+        .header .text button {
+            color: white;
+            border-radius: 112px;
+            background-color: green;
+            margin: auto 194px;
+            padding: 21px;
+            border: none;
+        }
+        
+        .photos {
+            margin: -104px auto;
+            padding: 3px;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+        }
+        
+        .photos .ph1 {
+            margin: -125px 18px;
+            width: 30%;
+            padding: 1px;
+            display: inline-block;
+        }
+        
+        .photos .ph2 {
+            margin: 1px ​476p;
+            width: 30%;
+            padding: 1px;
+            display: inline-block;
+        }
+        
+        .photos .ph3 {
+            width: 30%;
+            padding: 1px;
+            display: inline-block;
+            margin: 50px 17px;
+        }
+        
+        .photoss {
+            margin: 130px auto;
+            padding: 3px;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+        }
+        
+        .photoss .ph1 {
+            margin: -125px 18px;
+            width: 30%;
+            padding: 1px;
+            display: inline-block;
+        }
+        
+        .photoss .ph2 {
+            margin: 1px ​476p;
+            width: 30%;
+            padding: 1px;
+            display: inline-block;
+        }
+        
+        .photoss .ph3 {
+            width: 30%;
+            padding: 1px;
+            display: inline-block;
+            margin: 50px 17px;
+        }
+        
+        .last {
+            margin: 100px auto;
+            height: 350px;
+            font-family: 'Dancing Script', cursive;
+            background-color: #dcdcdc;
+        }
+        
+        .last .one {
+            width: 30%;
+            margin: 60px -33px;
+            /* padding: 1px; */
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .last .fa-amazon-pay {
+            color: green;
+            font-size: 69px;
+        }
+        
+        .last .two {
+            width: 30%;
+            margin: -116px 24px;
+            /* padding: 1px; */
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .last .fa-angrycreative {
+            color: green;
+            font-size: 69px;
+        }
+        
+        .last .three {
+            width: 30%;
+            text-align: center;
+            display: inline-block;
+            margin: -160px 80px;
+            /* padding: 1px; */
+        }
+        
+        .last .fa-anchor {
+            color: green;
+            font-size: 69px;
+        }
+        
+        .last button {
+            color: white;
+            border-radius: 112px;
+            background-color: green;
+            margin: auto 194px;
+            padding: 21px;
+            border: none;
+        }

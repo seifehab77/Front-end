@@ -1,0 +1,100 @@
+div {
+    display: inline-block;
+}
+
+.innerdiv {
+    background-color: #00ffff36;
+    width: 100%;
+    height: 50px;
+    /* margin: 50px 10px; */
+}
+
+.innerdiv {
+    text-align: center;
+}
+
+.innerdiv a {
+    padding: 0 10px;
+    margin: 0px 195px;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+.bigbox {
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+    margin: 10px 0;
+    display: none;
+}
+
+.bigbox:target {
+    display: block;
+}
+
+.bigbox .fistdiv {
+    width: 28%;
+    height: 350px;
+    background-color: #80808030;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.bigbox .fistdiv img {
+    margin: 5px;
+    width: 80%;
+    border-radius: 200px;
+}
+
+.bgbox {
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+    margin: 10px 50px;
+    display: none;
+}
+
+.bgbox:target {
+    display: block;
+}
+
+.bgbox .fistdiv {
+    width: 28%;
+    height: 350px;
+    background-color: #80808030;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.bgbox .fistdiv img {
+    margin: 5px;
+    width: 80%;
+    border-radius: 200px;
+}
+
+.bggbox {
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+    margin: 10px 50px;
+    display: none;
+}
+
+.bggbox:target {
+    display: block;
+}
+
+.bggbox .fistdiv {
+    width: 28%;
+    height: 350px;
+    background-color: #80808030;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.bggbox .fistdiv img {
+    margin: 5px;
+    width: 80%;
+    border-radius: 200px;
+}

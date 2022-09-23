@@ -1,0 +1,471 @@
+@charset"UTF-8";
+/*reset*/
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Main style*/
+body,
+html {
+    font-family: cursive;
+    line-height: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* utility classes*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.bg-Gray {
+    background-color: rgb(37, 37, 37);
+}
+
+.bg-primary {
+    color: #fff;
+}
+
+/*
+.text-primary{
+    
+}*/
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/*navbar style*/
+.navbar {
+    padding: 2px 0;
+}
+
+.navbar .nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-items .logo {
+    padding: 20px;
+}
+
+/*
+.navbar .nav-items .logo a{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+} 
+*/
+/*
+.navbar .nav-items .logo a img{
+    padding-right: 50%;
+}
+*/
+.navbar .nav-items .links ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.navbar .nav-items .links ul li a:hover {
+    color: rgb(213, 83, 46);
+}
+
+.navbar .nav-items .links ul li a img:hover {
+    color: rgb(213, 83, 46);
+}
+
+
+/*banner style*/
+.banner {
+    /*    height: 695px;*/
+    background-image: url(images/banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner .banner-text {
+    padding-top: 140px;
+}
+
+.banner .banner-heading {
+    font-size: 3.5rem;
+    word-spacing: 8px;
+    font-style: normal;
+    padding: 40px 0;
+    font-weight: 100;
+    color: rgb(37, 37, 37);
+}
+
+.banner .banner-secheading h2 {
+    font-size: 4rem;
+    word-spacing: 12px;
+    font-weight: 900;
+    color: whitesmoke;
+    font-style: normal;
+    padding: 15px 0;
+}
+
+.banner .banner-parg p {
+    font-size: 1rem;
+    color: whitesmoke;
+    padding: 20px 0;
+}
+
+.banner .banner-text button {
+    font-size: 1rem;
+    margin: 25px;
+    border-radius: 1px;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.banner .banner-text button:hover {
+    color: whitesmoke;
+    background-color: coral;
+}
+
+.banner .banner-lR {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.banner .banner-lR i {
+    border-bottom: 80%;
+    color: white;
+}
+.banner .banner-lR i:hover{
+    color: coral;   
+}
+
+/*about style*/
+/*
+.about {
+    height: auto;
+}
+*/
+
+.about .about-text {
+    padding-top: 140px;
+}
+
+.about .about-heading h2 {
+    font-size: 3rem;
+    word-spacing: 5px;
+    font-weight: bold;
+    color: coral;
+    padding: 20px 0;
+    padding-left: 150px
+}
+
+.about .about-pagr {
+    font-size: 1rem;
+    color: black;
+    padding: 15px 0;
+    padding-left: 150px;
+}
+
+.about-photo img {
+    width: 100%;
+    height: 80%;
+    float: right;
+    margin-top: 10%;
+    margin-left: 3%;
+    padding-left: 200px;
+}
+
+.about .about-text button {
+    font-size: 1rem;
+    margin: 25px;
+    border-radius: 1px;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    align-content: center !important;
+
+}
+
+.about .about-text button:hover {
+    color: whitesmoke;
+    background-color: coral;
+}
+
+/*our style*/
+/*
+.our-gallary {
+    height: 695px;
+}
+*/
+
+.our-gallary .our-text {
+    padding-top: 140px;
+}
+
+.our-gallary .our-heading h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: coral;
+    padding: 15px 0;
+}
+
+.our-gallary .our-pagr p {
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+}
+
+.our-gallary .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.our-gallary .row .col {
+    margin: 2px 0;
+    padding: 2px 0;
+    object-position: center;
+    object-fit: contain;
+}
+.our-gallary .row .col img{
+    margin: 10px;
+}
+
+.our-gallary .row .col:hover {
+    opacity: .8;
+}
+
+.our-gallary .row button {
+    font-size: 1rem;
+    margin: 25px;
+    border-radius: 1px;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.our-gallary .row button:hover {
+    color: whitesmoke;
+    background-color: coral;
+}
+
+/*service style*/
+.service {
+    background-image: url(images/services-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38rem !important;
+    background-attachment: fixed;
+}
+
+.service .service-head {
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    color: white;
+    padding-top: 120px;
+}
+
+.service .service-pagr {
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    padding-top: 40px;
+    color: white;
+}
+
+.service .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service .row .col {
+
+    margin: 50px 20px;
+    padding: 10px 0;
+    object-position: center;
+    object-fit: contain;
+    width: 30%;
+    text-align: center;
+    background-color: coral;
+}
+
+.service .row .col i {
+    color: aqua;
+    padding: 10px 0;
+}
+
+.service .row .col h2 {
+    color: white;
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+.service .row .col p {
+    color: white;
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.service .row .col button {
+    font-size: 1rem;
+    margin: 25px;
+    border-radius: 1px;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.service .row .col button:hover {
+    color: black;
+    background-color: white;
+}
+
+/*testimonial style*/
+.testimonial {
+    height: 400px;
+    /*   s*/
+}
+
+.testimonial .test-head h2 {
+    color: chocolate;
+    padding-top: 50px;
+    padding-left: 150px;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+.testimonial .test-parg p {
+    color: black;
+    padding-top: 20px;
+    padding-left: 150px;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.testimonial .test-border {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-bottom: 1px;
+}
+
+.testimonial .test-border h3 {
+    color: coral;
+    padding: 10px 50px;
+}
+
+.testimonial .test-border p {
+    padding: 0 10px;
+    font-size: 12px;
+    font-style: oblique;
+}
+
+/*contact style*/
+/*
+.contact{
+    height: 200px;
+}
+*/
+/*
+.contact img{
+    justify-content: center;
+}
+*/
+/*
+.contact .log-in{
+    background-image: url(images/contact.jpg);
+    background-repeat: no-repeat;
+    width: 400%;
+    height: 80%;
+    padding: 0 100px ;
+}
+.contact .log-in input[type=Text]{
+    border:none;
+    border-bottom: 5px soid red;
+}
+*/
+.con2{
+    height: 350px;
+    padding: 0 20px;
+    background-color: rgb(37,37,37);
+}
+.contact .con-head{
+    text-align: center;
+    font-size: 20px;
+    color: coral;
+    font-style: normal;
+    padding: 100px 0;
+}
+
+.con2 table{
+    width: 100%;
+    padding-top: 100px;
+}
+.con2 table th{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.con2 table td{
+    font-size: 12px;
+}
+.con2 table td a:hover{
+    color: coral;
+}
+.con2 table td i{
+    padding-right: 5px;
+}
+/*Footer style*/
+footer{
+    margin-top: 5px;
+    padding: 10px;
+}
+.Last p{
+    color: rgb(37,37,37);
+    text-align: center;
+}
+.Last span:hover{
+    color: coral;
+}

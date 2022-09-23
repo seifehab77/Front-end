@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+.fheader {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    margin: 20px -7px;
+}
+
+.fheader .text ul {
+    list-style: none;
+}
+
+.fheader span {
+    color: red;
+}
+
+.fheader ul li a {
+    text-decoration: none;
+    float: left;
+    margin: 11px 5px;
+    color: white;
+    font-size: 18px;
+    padding: 0 36px;
+}
+
+.sheader {
+    width: 100%;
+    height: 50px;
+    background-color: #f0fff036;
+    position: fixed;
+    margin: -20px -7px;
+}
+
+.sheader h1 {
+    padding: 11px 0;
+    margin: 0 30px;
+    color: #0080005c;
+}
+
+.sheader ul {
+    list-style: none;
+}
+
+.sheader ul li a {
+    text-decoration: none;
+    float: left;
+    margin: -2px 7px;
+    color: #0080005c;
+    font-size: 18px;
+}
+
+.sheader .y {
+    position: relative;
+    left: 1032px;
+    top: -53px;
+}
+
+.product {
+    margin: 10px 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.product p {
+    font-size: 54px;
+    color: brown;
+    font-family: 'Caramel', cursive;
+}
+
+.product button a {
+    text-decoration: none;
+    color: white;
+}
+
+.product button a {
+    background-color: tomato;
+    border-radius: 43px;
+    border-top: 50px;
+    border-bottom: 50px;
+    border-style: hidden;
+    padding: 12px;
+    font-size: 26px;
+    transition: all 1s ease-in-out
+}
+
+.product button:hover {
+    color: black;
+    background-color: wheat;
+    transform: scale(1.2);
+}
+
+.all {
+    width: 98%;
+    height: 527px;
+    background-color: #9e9e9e38;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.all .contact {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.all .contact img {
+    width: 500px;
+    height: 500px;
+}
+
+.all .word {
+    float: right;
+    margin: 77px -133px;
+    padding: 10px 10px;
+}
+
+.all .word p {
+    font-size: 20px;
+}

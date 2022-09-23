@@ -1,0 +1,68 @@
+ body{
+                background-image: url(images/bg-body.jpg);
+            }
+            .header{
+                width: 80%;
+                height: 140px;
+                margin-left: 10%;
+                background-image: url(images/bg-logo.jpg);
+                background-size: 396px  ;
+                background-repeat: no-repeat;
+                background-color: #f5f1e6;
+/*                padding: 1PX;*/
+/*                margin-bottom: 20px;*/
+                
+               
+            }
+.header .link {
+    width: 50%;
+    margin:auto;
+    margin-left: 800px;
+    padding: 50px 50px;
+    
+ 
+    
+}
+.header .link a{
+    padding: 10px 10px;
+}
+
+
+            .content{
+                width: 80%;
+                height: 400px;
+                margin-left: 10%;
+/*                margin-bottom: 20px;*/
+                background-image: url(images/headline-home.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .content p{
+                text-align: center;
+                width: 50%; 
+                font-size: 50px;
+                margin-left: 30px;
+                margin-top: 70px;
+                position:absolute;
+                color:#feb107;
+            }
+            .footer{
+                width: 80%;
+                height: 230px;
+                margin-left: 10%;
+               background-image: url(images/whats-hot.jpg);
+                background-repeat: no-repeat;
+                background-color: #f5f1e6;
+/*                margin-bottom: 20px;*/
+            }
+/*
+            .footer .image {
+     margin: 0px 200px 250px;
+    height: 90px;
+    padding: 0px 50px 10px 82px
+}*/
+img{
+    width: 20%;
+    position: relative;
+    left: 450px;
+}

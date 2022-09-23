@@ -1,0 +1,189 @@
+@charset"UTF-8";
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
+    background-color: whitesmoke;
+}
+
+/*header style*/
+.card-header {
+    background-color: #a5c926 !important;
+    position: sticky;
+}
+
+.card-header p {
+    margin: 2px 0;
+    padding: 0 100px;
+    font-size: 12px;
+    color: white;
+}
+
+.card-header span {
+    padding-left: 10px;
+}
+
+.card-header a {
+    color: white;
+}
+
+.card-header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*navbar style*/
+.navbar {
+    height: 50px;
+    position: static;
+}
+
+.navbar a {
+    color: black;
+    margin: 100px 5px;
+    padding: 100px 10px;
+}
+
+.collapse a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar .Cart {
+    padding: 0 50px;
+}
+
+.navbar .Cart a:hover {
+    color: black;
+}
+/*header*/
+.header .card-header{
+    background-color: white !important;
+    height: 100px
+}
+.header .card-header h2{
+    font-size: 20px;
+}
+.header .card-header ul{
+      list-style: none;
+    overflow: hidden;
+    float: right;
+}
+.header .card-header ul li{
+      float: left;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.header .card-header ul li a{
+      color: black;
+    text-decoration: none;
+}
+.header .card-header ul li a:hover{
+     color: black;
+    text-decoration: underline;
+}
+.header  .row .col{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 50px;
+    align-content: center;
+    transition: all 1s ease-in-out;
+    margin:0;
+}
+.header  .row .col:hover{
+     transform: scale(1.2);
+}
+.header  .row .col h5{
+     font-size: 12px;
+    margin: 10px 10px;
+}
+.header     .row .col a{
+      height: 48px;
+    padding: 12px 28px;
+    border-radius: 24px;
+    background-color: #a5c926;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+/*subscribe*/
+.subscribe .card {
+    padding: 0 20px;
+    margin: 20px 150px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.subscribe .card p {
+    font-size: 1rem;
+}
+
+.subscribe .card i {
+    color: #a5c926;
+}
+
+.subscribe .card input {
+    width: 50%;
+    border-radius: 20px !important;
+}
+
+.subscribe .card button {
+    height: 48px !important;
+    padding: 12px 28px !important;
+    justify-content: center !important;
+    border-radius: 24px !important;
+    background-color: #a5c926 !important;
+    color: white !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    transition: all 1s ease-in-out !important;
+}
+
+/*footer style*/
+.last {
+    height: 200px;
+    background-color: #a5c926;
+}
+
+.last table {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.lst table th {
+    font-size: 12px;
+    padding: 20px 0;
+
+}
+
+.last table th ul {
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+
+.last table th ul li {
+    float: left;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.last table th  a{
+    color: white;
+    text-decoration: none;
+}
+.last table th ul li a{
+    color: white;
+}
+.last table th ul li a:hover{
+       text-decoration: underline;
+    color: white;
+}
+.last hr{
+    color: white;
+}

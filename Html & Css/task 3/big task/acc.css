@@ -1,0 +1,48 @@
+.account {
+    width: 50%;
+    height: 724px;
+    background-color: #80808038;
+    margin: 13px 331px;
+}
+
+.account h1 {
+    text-align: center;
+    padding: 41px 0;
+}
+
+.account form {
+    text-align: center;
+    padding: 50px 86px;
+}
+
+.account form input {
+    padding: 19px 88px;
+    margin: 15px;
+    border-radius: 50px solid red;
+    background-color: whitesmoke;
+    border: none;
+    margin: 10px 10px;
+    width: 70%;
+}
+
+.account form a {
+    text-decoration: none;
+    color: red;
+}
+
+.account form button {
+    height: 40px;
+    padding: 10px 10px;
+    margin: 20px 15px;
+    width: 50%;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+    background-color: #80808038;
+}
+
+.account form button:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="imagehover.css-master/css/imagehover.min.css">
+    <style>
+        [class*=" imghvr-"] figcaption,
+        [class^=imghvr-] figcaption {
+            background-color: red;
+            padding: 30px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            color: #fff;
+        }
+        
+        [class*=" imghvr-"],
+        [class^=imghvr-] {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            max-width: 100%;
+            background-color: blue;
+            color: #fff;
+            overflow: hidden;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            transform: translateZ(0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <figure class="imghvr-fold-up">
+        <img src="img/example-custom.jpg" alt="example-image">
+        <figcaption>
+            <h3 class="ih-fade-down ih-delay-sm ">Oscar Wilde</h3>
+            <p class="ih-zoom-in ih-delay-md">
+                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
+            </p>
+        </figcaption>
+    </figure>
+</body>
+
+</html>

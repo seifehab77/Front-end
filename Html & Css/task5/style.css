@@ -1,0 +1,37 @@
+div {
+    float: left;
+}
+
+.bgdiv {
+    /* width: 1200px;
+    height: 650px;
+    border: 1px solid black; */
+    width: 1200px;
+    height: 475px;
+    margin: 10px 402px;
+}
+
+.bgdiv img {
+    width: 100px;
+    height: 473px;
+}
+
+.bgdiv #img1:hover {
+    width: 600px;
+}
+
+.bgdiv #img2:hover {
+    width: 600px;
+}
+
+.bgdiv #img3:hover {
+    width: 600px;
+}
+
+.bgdiv #img4:hover {
+    width: 600px;
+}
+
+.bgdiv #img5:hover {
+    width: 600px;
+}

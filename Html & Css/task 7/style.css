@@ -1,0 +1,774 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    /* height: 10000px; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Irish+Grover&family=Roboto:wght@500&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+/*start nav*/
+
+.nav {
+    width: 95%;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px 17px;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.nav span {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav ul {
+    margin: 15px 20px;
+}
+
+.nav ul li {
+    list-style: none;
+    float: left;
+    margin: 0 25px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a:hover {
+    color: orange;
+}
+
+.nav .fa-search:hover {
+    color: orange;
+}
+
+
+/*end nav*/
+
+
+/*start bannner*/
+
+.banner {
+    background-image: url(images/features_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner .fa-door-open {
+    font-size: 100px;
+    margin-left: 300px;
+    color: #fff;
+}
+
+.banner .all img {
+    display: flex;
+    flex-flow: column;
+    margin: 0 200px;
+}
+
+.banner .all .all1 {
+    margin: 30px 200px;
+}
+
+.banner .all .all2 {
+    margin: 30px 100px;
+}
+
+.banner .all .all3 {
+    margin: 30px 100px;
+}
+
+.banner .all .all4 {
+    margin: 10px 100px;
+}
+
+.banner .all .all5 {
+    margin: 10px 100px;
+}
+
+.banner .all h1 {
+    padding: 37px 0;
+    font-size: 63px;
+    color: white;
+}
+
+.banner .all button {
+    /* background-color: white; */
+    border: none;
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 339px;
+    cursor: pointer;
+    width: 22%;
+    border: 2px solid black;
+    transition: all 1s ease-in-out;
+    opacity: 0.7;
+}
+
+.banner .all button:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+
+/*end banner*/
+
+
+/*start who*/
+
+.who {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.who .text {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.who .text h1 {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.who .text hr {
+    margin: 15px 0;
+    height: 3px;
+    background-color: black;
+}
+
+.who .text p {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.who .img {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 12px;
+    margin: 15px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.firsimg h1 {
+    font-size: 27px;
+    padding: 10px 0;
+}
+
+.firsimg p {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10px;
+}
+
+.who .img .firsimg img {
+    width: 91%;
+    height: 348px;
+    margin: 9px 25px;
+    padding: 0px 2px;
+    transition: all 1s ease-in-out;
+}
+
+.who .img .firsimg img:hover {
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+
+.who .img .secdimg img {
+    width: 91%;
+    height: 348px;
+    margin: 9px 25px;
+    padding: 0px 2px;
+    transition: all 1s ease-in-out;
+}
+
+.who .img .secdimg img:hover {
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+
+.secdimg h1 {
+    font-size: 27px;
+    padding: 10px 0;
+}
+
+.secdimg p {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10px;
+}
+
+.who .img .thrdimg img {
+    width: 91%;
+    height: 348px;
+    margin: 9px 25px;
+    padding: 0px 2px;
+    transition: all 1s ease-in-out;
+}
+
+.who .img .thrdimg img:hover {
+    opacity: 0.4;
+    transform: scale(1.1);
+}
+
+.thrdimg h1 {
+    font-size: 27px;
+    padding: 10px 0;
+}
+
+.thrdimg p {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10px;
+}
+
+
+/*endwho*/
+
+
+/* start vedio*/
+
+.vedio {
+    background-image: url(images/story-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+    height: 700px;
+    margin: 0px 22px;
+}
+
+.vedio .textt {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 293px;
+}
+
+.vedio .textt h1 {
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 15px;
+}
+
+.vedio .textt p {
+    padding-bottom: 69px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.vedio .textt .fa-play-circle {
+    font-size: 50px;
+    transition: all 1s ease-in-out;
+}
+
+.vedio .textt .fa-play-circle:hover {
+    transform: scale(1.6);
+}
+
+
+/*end vedio*/
+
+
+/*start service*/
+
+.service {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.service .txt {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.service .txt h1 {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.service .txt hr {
+    margin: 15px 0;
+    height: 3px;
+    background-color: black;
+}
+
+.service .txt p {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.service .log {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 12px;
+    margin: 15px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+}
+
+.service .log .fislogo {
+    margin: 0 71px;
+    padding-right: 18px;
+}
+
+.service .log .fislogo h3 {
+    text-decoration: line-through;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.service .log .fislogo .fa-telegram-plane {
+    font-size: 40px;
+    padding-bottom: 21px;
+}
+
+.service .log .seclogo {
+    margin: 0 71px;
+    padding-right: 18px;
+}
+
+.service .log .seclogo h3 {
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.service .log .seclogo .fa-random {
+    font-size: 40px;
+    padding-bottom: 21px;
+}
+
+.service .log .thrlogo {
+    margin: 0 71px;
+    padding-right: 18px;
+}
+
+.service .log .thrlogo h3 {
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.service .log .thrlogo .fa-random {
+    font-size: 40px;
+    padding-bottom: 21px;
+}
+
+.service .log .foulogo {
+    margin: 0 71px;
+    padding-right: 18px;
+}
+
+.service .log .foulogo h3 {
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.service .log .fa-tv {
+    font-size: 40px;
+    padding-bottom: 21px;
+}
+
+.service .words {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.service .words .txtt {
+    padding: 0 25px;
+    font-size: 19px;
+}
+
+.service .words .tet {
+    font-size: 17px;
+}
+
+.service button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 21px 586px;
+    cursor: pointer;
+    width: 22%;
+    border: 2px solid black;
+    transition: all 1s ease-in-out;
+}
+
+.service button:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+
+/*end service*/
+
+
+/*start people*/
+
+.what {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+.what .fa-quote-left {
+    margin: 30px 0;
+    font-size: 30px;
+    color: burlywood;
+}
+
+.what h1 {
+    margin: 20px 0;
+    color: burlywood;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.what p {
+    margin: 20px 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/*end people*/
+
+.our {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.our .words {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.our .words h1 {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.our .words hr {
+    margin: 15px 376px;
+    height: 3px;
+    background-color: black;
+    width: 38%;
+}
+
+.our .words p {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.our .menu {
+    margin-left: -416px;
+}
+
+.our .menu ul li {
+    margin: 20px 40px;
+    float: left;
+    list-style: none;
+}
+
+.our .menu ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.our .menu ul li a:hover {
+    border: 2px solid #000;
+    padding: 2px 5px;
+}
+
+.our .imges {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
+
+.our .imges img {
+    width: 26%;
+    margin: 8px 7px;
+    transition: all 1s ease-in-out;
+}
+
+
+/* .our .imges:target {
+            display: block;
+            margin: 15px 20px;
+        } */
+
+.our .imges img:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+
+/*end our*/
+
+
+/*start new*/
+
+.new {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.new h1 {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.new hr {
+    margin: 15px 535px;
+    height: 3px;
+    background-color: black;
+    width: 32%;
+}
+
+.new p {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.new input[type=text] {
+    width: 18%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: whitesmoke;
+}
+
+.new button {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: -33px 50px;
+    cursor: pointer;
+    width: 12%;
+    border: 2px solid black;
+    transition: all 1s ease-in-out;
+}
+
+.new button:hover {
+    transform: scale(1.2);
+    /* opacity: 0.5; */
+}
+
+
+/*end new*/
+
+
+/*start from*/
+
+.from {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.from h1 {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.from hr {
+    margin: 15px 535px;
+    height: 3px;
+    background-color: black;
+    width: 32%;
+}
+
+.from p {
+    padding: 15px 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.from .photos {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.from .photos img {
+    /* width: 26%; */
+    margin: 9px 38px;
+    transition: all 1s ease-in-out;
+}
+
+.from .photos img:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.from button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 21px 586px;
+    cursor: pointer;
+    width: 22%;
+    border: 2px solid black;
+    transition: all 1s ease-in-out;
+}
+
+.from button:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+
+/*end form*/
+
+
+/*strt slide*/
+
+.slide {
+    background-image: url(images/factbg.jpg);
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 441px;
+    background-position: 100px;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.slide .wordd {
+    display: flex;
+    flex-flow: row wrap;
+    /* margin: 15px 20px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.slide .wordd .word1 {
+    margin: 215px 78px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.slide .wordd .word1 h4 {
+    margin-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.slide .wordd .word1 h5 {
+    margin-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+}
+
+.slide .wordd .word1 .fa-fire {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.slide .wordd .word1 .fa-heart {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.slide .wordd .word1 .fa-paw {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.slide .wordd .word1 .fa-glass-martini-alt {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+
+/*end slide*/
+
+
+/*start last*/
+
+
+/* .last {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+    /* margin-top: 15px; */
+
+
+/* display: flex;
+    flex-flow: row wrap; */
+
+
+/*start footer*/
+
+footer {
+    width: 100%;
+    height: 53px;
+    background-color: whitesmoke;
+    margin: 15px auto;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+h5 {
+    margin: 15px 20px;
+    font-size: 20px;
+}
+
+ul {
+    margin-left: 700px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin: 15px 25px;
+}

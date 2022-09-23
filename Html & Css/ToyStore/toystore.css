@@ -1,0 +1,416 @@
+@charset"UTF-8";
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
+    background-color: whitesmoke;
+}
+
+/*header style*/
+.card-header {
+    background-color: #a5c926 !important;
+    position: sticky;
+}
+
+.card-header p {
+    margin: 2px 0;
+    padding: 0 100px;
+    font-size: 12px;
+    color: white;
+}
+
+.card-header span {
+    padding-left: 10px;
+}
+
+.card-header a {
+    color: white;
+}
+
+.card-header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*navbar style*/
+.navbar {
+    height: 50px;
+    position: static;
+}
+
+.navbar a {
+    color: black;
+    margin: 100px 5px;
+    padding: 100px 10px;
+}
+
+.collapse a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar .Cart {
+    padding: 0 50px;
+}
+
+.navbar .Cart a:hover {
+    color: black;
+}
+
+/*banner style*/
+.banner {
+    height: 500px;
+    background-image: url(images/banner/banner.jpg);
+    background-size: cover;
+    background-attachment: inherit;
+}
+
+.banner .info {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.banner .info h2 {
+    color: whitesmoke;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.banner .info h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.banner .info button {
+    height: 48px;
+    padding: 12px 28px;
+    border-radius: 24px;
+    background-color: #a5c926;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+}
+
+.banner .info button:hover {
+    transform: scale(1.2);
+}
+
+/*st-wo-area*/
+.home {
+    /*    height: 410px;*/
+    margin: 20px 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.home .row .col {
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 20px 25px;
+}
+
+.home .row .col h2 {
+    color: white;
+}
+
+.home .row .col button {
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border-color: white;
+    justify-content: center;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.home .row .col button:hover {
+    transform: scale(1.2);
+}
+
+/*stuffed style*/
+.Stuffed .card-header{
+    background-color: white !important;
+    height: 100px;
+} 
+.Stuffed .card-header h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+.Stuffed .card-header .link-shop a {
+    padding-left: 900px;
+    padding-bottom: 1000px;
+    color: black;
+    text-decoration-skip: ink;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.Stuffed .card-header .link-shop a:hover {
+    text-decoration: underline;
+    text-decoration-color: #a5c926;
+    text-decoration-skip: ink;
+}
+
+.Stuffed .row .col {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 50px;
+    align-content: center;
+    transition: all 1s ease-in-out;
+    margin: 0px;
+}
+
+.Stuffed .row .col:hover {
+    transform: scale(1.2);
+}
+
+.Stuffed .row .col h5 {
+    font-size: 12px;
+    margin: 10px 10px;
+}
+
+.Stuffed .row .col a {
+    height: 48px;
+    padding: 12px 28px;
+    border-radius: 24px;
+    background-color: #a5c926;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*wooden style*/
+.wooden .card-header{
+    background-color: white !important;
+    height: 100px
+}
+.wooden .card-header h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+.wooden .card-header .linke a {
+    padding-left: 900px;
+    padding-bottom: 1000px;
+    color: black;
+    text-decoration-skip: ink;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.wooden .card-header .linke a:hover {
+    text-decoration: underline;
+    text-decoration-color: #a5c926;
+    text-decoration-skip: ink;
+}
+
+.wooden .row .col {
+    justify-content: center;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    transition: all 1s ease-in-out;
+}
+
+.wooden .row .col:hover {
+    transform: scale(1.5);
+}
+
+.wooden .row .col p {
+    font-size: 12px;
+    margin: 10px 10px;
+}
+
+.wooden .row .col a {
+    height: 48px;
+    padding: 12px 28px;
+    border-radius: 24px;
+    background-color: #a5c926;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*about style*/
+.About {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/About.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem !important;
+    background-attachment: fixed;
+}
+
+.About .about-words {
+    text-align: center;
+    color: whitesmoke;
+    margin: 10px 10px;
+    padding: 300px 300px;
+}
+
+.About .about-words h6 {
+    font-size: 12px;
+}
+
+.About .about-words p {
+    font-size: 12px
+}
+
+.About .about-words a {
+    color: #a5c926;
+}
+
+.About .about-words a i {
+    transition: all 1s ease-in-out;
+}
+
+.About .about-words a i:hover {
+    transform: scale(1.2);
+}
+
+/*templet style*/
+.templet {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.templet p {
+    color: #a5c926;
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.templet h1 {
+    color: black;
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/*available style*/
+.available h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    margin: 40px 0px;
+}
+
+.available span {
+    font-size: 12px !important;
+    margin: 60px 0px !important;
+}
+
+.available button {
+    height: 48px !important;
+    padding: 12px 28px !important;
+    justify-content: center !important;
+    border-radius: 24px !important;
+    background-color: #a5c926 !important;
+    color: white !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    transition: all 1s ease-in-out !important;
+}
+
+.available button:hover {
+    transform: scale(1.2) !important;
+    background-color: #a5c926 !important;
+}
+
+/*subscribe*/
+.subscribe .card {
+    padding: 0 20px;
+    margin: 20px 150px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.subscribe .card p {
+    font-size: 1rem;
+}
+
+.subscribe .card i {
+    color: #a5c926;
+}
+
+.subscribe .card input {
+    width: 50%;
+    border-radius: 20px !important;
+}
+
+.subscribe .card button {
+    height: 48px !important;
+    padding: 12px 28px !important;
+    justify-content: center !important;
+    border-radius: 24px !important;
+    background-color: #a5c926 !important;
+    color: white !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    transition: all 1s ease-in-out !important;
+}
+
+/*footer style*/
+.last {
+    height: 200px;
+    background-color: #a5c926;
+}
+
+.last table {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.lst table th {
+    font-size: 12px;
+    padding: 20px 0;
+
+}
+
+.last table th ul {
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+
+.last table th ul li {
+    float: left;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.last table th  a{
+    color: white;
+    text-decoration: none;
+}
+.last table th ul li a{
+    color: white;
+}
+.last table th ul li a:hover{
+       text-decoration: underline;
+    color: white;
+}
+.last hr{
+    color: white;
+}

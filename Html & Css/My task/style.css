@@ -1,0 +1,392 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Dancing+Script:wght@500&family=Fjalla+One&family=Grechen+Fuemen&family=Indie+Flower&family=Irish+Grover&family=Roboto:wght@500&family=Zen+Antique+Soft&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Fjalla+One&family=Indie+Flower&family=Irish+Grover&family=Roboto:wght@500&family=Zen+Antique+Soft&display=swap');
+        /*nav*/
+        
+        .nav {
+            margin-top: 25px;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-flow: row;
+            background-color: black;
+            color: white;
+        }
+        
+        .nav .title {
+            margin-top: 5px;
+            margin-left: 50px;
+            padding: 0 20px;
+        }
+        
+        .nav .title:hover {
+            color: coral;
+        }
+        
+        .nav .menu {
+            margin-left: 680px;
+        }
+        
+        .nav .menu ul {
+            margin-top: 15px;
+            padding: 0 10px;
+            list-style: none;
+        }
+        
+        .nav .menu ul li {
+            float: left;
+            padding: 0 10px;
+        }
+        
+        .nav .menu ul li a {
+            text-decoration: none;
+            color: white;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .nav .menu ul li a:hover {
+            border-bottom: 1px solid red;
+            transform: scale(1.2);
+        }
+        
+        .nav .menu input {
+            border-radius: 15px;
+            height: 32px;
+            margin-top: -6px;
+            margin-left: 22px;
+            text-align: center;
+            border: 3px solid black;
+            transition: all 0.2s ease-in-out;
+        }
+        
+        .nav .menu input:hover {
+            transform: scale(1.1);
+        }
+        /*banner*/
+        
+        .banner {
+            width: 100%;
+            height: 700px;
+            background-image: url(img/banner.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        
+        .banner .inside .text {
+            position: relative;
+            bottom: -425px;
+            left: 110px;
+            margin-left: 443px;
+        }
+        
+        .banner .inside .text h1 {
+            font-size: 92px;
+        }
+        
+        .banner .inside .text p {
+            margin: 21px 153px;
+        }
+        /*about */
+        
+        .about {
+            width: 100%;
+            background-color: black;
+            color: white;
+            height: 2500px;
+        }
+        /*text*/
+        
+        .about .text2 {
+            display: flex;
+            flex-flow: row;
+        }
+        
+        .about .text2 .horzontial {
+            width: 8px;
+            height: 161px;
+            background-color: brown;
+            margin: 10px 20px;
+            position: relative;
+            top: 50px;
+            left: 51px;
+        }
+        
+        .about .text2 .words {
+            margin: 64px 62px;
+        }
+        
+        .about .text2 .words h1 {
+            padding: 10px 0;
+            font-size: 40px
+        }
+        
+        .about .text2 .words p {
+            line-height: 20px;
+        }
+        /*icons*/
+        
+        .about .icons {
+            margin: 10px 200px;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+        
+        .about .icons .icons1 {
+            padding: 0 15px;
+        }
+        
+        .about .icons .icons1 h1 {
+            font-family: 'Fjalla One', sans-serif;
+            position: relative;
+            top: 15px;
+            left: -74px;
+            color: brown;
+            font-size: 62px;
+        }
+        
+        .about .icons .icons1 h3 {
+            position: relative;
+            top: -21px;
+            left: 5px;
+            font-size: 32px;
+        }
+        
+        .about .icons .icons1 i {
+            position: relative;
+            font-size: 35px;
+            bottom: -11px;
+            left: -114px;
+            color: brown;
+        }
+        /*gallary*/
+        
+        .gallary {
+            width: 100%;
+            height: 454px;
+            background-image: url(img/img1.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .gallary .biggallary {
+            display: flex;
+            flex-flow: row;
+            margin-left: 670px;
+            /* padding: 25px 20px; */
+        }
+        
+        .gallary .biggallary img {
+            width: 122%;
+            height: 177px;
+        }
+        
+        .gallary .card1 #imgid {
+            width: 122%;
+            height: 245px;
+        }
+        
+        .gallary .biggallary .background1 {
+            background-color: brown;
+            width: 217px;
+            height: 219px;
+            /* text-align: center; */
+        }
+        
+        .gallary .biggallary .background2 {
+            background-color: black;
+            width: 235px;
+            height: 155px;
+            color: white;
+            /* text-align: center; */
+        }
+        
+        .gallary .biggallary .text3 {
+            padding: 12px 20px;
+        }
+        
+        .gallary .biggallary h5 {
+            color: white;
+            font-size: 35px;
+        }
+        
+        .gallary .biggallary .text4 {
+            padding: 12px 20px;
+        }
+        
+        .gallary .biggallary .text4 a {
+            color: red;
+            font-size: 20px;
+        }
+        /*info*/
+        
+        .info {
+            width: 100%;
+            height: 674px;
+            background-image: url(img/img4.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .info::before {
+            content: "AUDI R8";
+            color: #808080b3;
+            font-size: 150px;
+            position: relative;
+            top: 48px;
+            right: -249px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        
+        .info .options {
+            position: relative;
+            top: -104px;
+            right: -81px;
+        }
+        
+        .info .options .icons2 {
+            font-size: 50px;
+            color: brown;
+            padding: 10px 15px;
+        }
+        
+        .info .options h5 {
+            font-size: 32px;
+            padding: 10px 0;
+        }
+        
+        .info .options .text5 {
+            margin: 15px 20px;
+        }
+        
+        .info .options .text5 h1 {
+            padding: 10px 15px;
+        }
+        
+        .info .options .text5 p {
+            line-height: 25px;
+        }
+        /*speed*/
+        
+        .speed {
+            width: 100%;
+            height: 100px;
+        }
+        
+        .speed::before {
+            display: flex;
+            content: " KMph    gears     Seconds";
+            color: #808080b3;
+            font-size: 53px;
+            justify-content: space-evenly;
+            padding: 16px 22px;
+        }
+        
+        .speed .numbers {
+            display: flex;
+            flex-flow: row;
+            position: relative;
+            top: -73px;
+            left: -17px;
+            margin: 19px ​383px;
+            text-align: center;
+            justify-content: center;
+            transform: rotate3d(360deg 180deg);
+        }
+        
+        .speed .numbers .num1 {
+            padding: 10px 33px;
+        }
+        
+        .speed .numbers .num1 p {
+            padding: 10px 0;
+        }
+        /*last1*/
+        
+        .last1 {
+            background-image: url(img/img5.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 500px;
+            opacity: 1.2;
+        }
+        
+        .last1 .text6 {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            position: relative;
+            bottom: -150px;
+            right: -107px;
+            margin-left: 479px;
+            text-align: center;
+        }
+        
+        .last1 .text6 h1 {
+            padding: 20px 20px;
+        }
+        
+        .last1 .text6 p {
+            line-height: 20px;
+        }
+        /*last2*/
+        
+        .last2 {
+            background-image: url(img/img6.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 500px;
+            opacity: 1.2;
+        }
+        
+        .last2 .text7 {
+            display: flex;
+            flex-flow: row;
+            position: relative;
+            top: 131px;
+            left: 105px;
+        }
+        
+        .last2 .text7 .words1 {
+            padding: 34px 102px;
+        }
+        
+        .last2 .text7 .words1 h1 {
+            padding: 10px 0px;
+        }
+        
+        .last2 .text7 .words1 p {
+            padding: 10px 0px;
+        }
+        
+        .last2 .text7 .words1 a {
+            color: red;
+        }
+        /*footer*/
+        
+        .last3 {
+            width: 100%;
+            height: 100px;
+            background-color: #333333;
+        }
+        
+        .last3 h1 {
+            text-align: center;
+            font-size: 33px;
+            padding: 29px 0;
+        }
+        
+        .last3 span {
+            color: bisque;
+        }

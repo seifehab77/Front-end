@@ -1,0 +1,867 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*start header*/
+
+.header {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+.header .contact {
+    padding: 15px 39px;
+}
+
+.header .contact ion-icon {
+    color: blue;
+    font-size: 20px;
+}
+
+.header .contact span {
+    font-size: 15px;
+}
+
+.header .meida {
+    margin-left: 900px;
+    margin-top: 15px;
+}
+
+.header .meida ion-icon {
+    padding: 0 10px;
+    color: gray;
+}
+
+
+/*end header*/
+
+
+/*start navbar*/
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+}
+
+.navbar h1 {
+    margin: 10px 15px;
+    font-size: 28px;
+    padding: 0 53px;
+}
+
+.navbar span {
+    color: blue;
+}
+
+.menu {
+    margin-left: 650px;
+    margin-top: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    float: left;
+    padding: 0 15px
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+
+/*end navbar*/
+
+
+/*start banner*/
+
+.banner {
+    background-image: url(img/bg_image_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    margin: 0;
+}
+
+.text {
+    text-align: center;
+    padding-top: 250px;
+}
+
+.text h3 {
+    margin: 15px 0;
+    font-size: 22px;
+    color: black;
+}
+
+.text h1 {
+    margin: 15px 0;
+    font-size: 60px;
+    color: black;
+}
+
+.text button a {
+    text-decoration: none;
+    color: black;
+}
+
+.text button {
+    width: 10%;
+    border: 2px solid black;
+    height: 40px;
+    background-color: #f1eee5;
+    transition: all 1.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.text button:hover {
+    transform: scale(1.5);
+}
+
+
+/*end banner*/
+
+
+/*start about*/
+
+.about {
+    padding: 134px 0;
+    width: 100%;
+    height: 365px;
+    display: flex;
+    flex-flow: row;
+}
+
+.about .textt {
+    padding: 12px;
+    width: 50%;
+    margin-left: 112px;
+}
+
+.about .textt h4 {
+    padding: 12px 15px;
+    color: gray;
+}
+
+.about .textt h1 {
+    padding: 0px 15px;
+}
+
+.about .textt span {
+    color: blue;
+}
+
+.about .textt p {
+    height: 10px;
+    width: 60%;
+    padding: 12px 15px;
+    font-size: 15px;
+    font-family: system-ui;
+}
+
+.about .textt a {
+    text-decoration: none;
+    color: white;
+}
+
+.about .textt button {
+    width: 18%;
+    border: 3px solid blue;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blue;
+    transition: all 1.5s ease-in-out;
+    margin: 138px 9px;
+}
+
+.about .textt button:hover {
+    transform: scale(1.5);
+}
+
+.about .image {
+    margin-left: -120px;
+}
+
+.about .image img {
+    width: 466px;
+    margin: 23px 15px;
+    transform: rotate3d(33, -5, 0, 32deg);
+    border-radius: 16px;
+}
+
+
+/*end about*/
+
+
+/*start services*/
+
+.services {
+    padding: 134px 0;
+}
+
+.services .txt {
+    text-align: center;
+}
+
+.services .txt h3 {
+    color: gray;
+    font-size: 14px;
+}
+
+.services .txt h1 {
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.services .icons .firstrow {
+    display: flex;
+    flex-flow: row;
+    padding: 10px 54px;
+    text-align: center;
+    margin-left: 52px;
+}
+
+.l1icon,
+.l2icon,
+.l3icon,
+.l4icon {
+    padding: 15px 20px;
+    margin-left: 100px;
+}
+
+.l1icon h3 {
+    padding: 15px 0;
+}
+
+.l2icon h3 {
+    padding: 15px 0;
+}
+
+.l3icon h3 {
+    padding: 15px 0;
+}
+
+.l4icon h3 {
+    padding: 15px 0;
+}
+
+.services .icons .secicon {
+    display: flex;
+    flex-flow: row;
+    padding: 10px 59px;
+    text-align: center;
+    margin-left: 51px;
+}
+
+.l5icon,
+.l6icon,
+.l7icon,
+.l8icon {
+    padding: 15px 27px;
+    margin-left: 100px;
+}
+
+.l5icon h3 {
+    padding: 15px 0;
+}
+
+.l6icon h3 {
+    padding: 15px 0;
+}
+
+.l7icon h3 {
+    padding: 15px 0;
+}
+
+.l8icon h3 {
+    padding: 15px 0;
+}
+
+
+/* end service*/
+
+
+/*start teams*/
+
+.teams {
+    padding: 134px 0;
+}
+
+.teams .txtt {
+    text-align: center;
+}
+
+.teams .photos {
+    display: flex;
+    flex-flow: row;
+    padding: 20px 25px;
+    margin-left: 225px;
+}
+
+.teams .photos ion-icon {
+    background-color: gray;
+    padding: 10px 10px;
+    margin: 15px 0;
+}
+
+.teams .photos .firstimg {
+    padding: 0 40px;
+}
+
+.teams .photos .secimg {
+    padding: 0 40px;
+}
+
+.teams .photos .tirdimg {
+    padding: 0 40px;
+}
+
+.teams .photos img {
+    border-radius: 15px;
+    width: 93%;
+}
+
+.teams .photos h1 {
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+.teams .photos h4 {
+    padding: 2px 21px;
+    font-size: 11px;
+    color: gray;
+}
+
+
+/*end teams*/
+
+
+/*start protofile*/
+
+.prtofile {
+    padding: 120px 0;
+    margin-left: 103px;
+}
+
+.prtofile h4 {
+    padding: 5px 30px;
+    color: gray;
+}
+
+.prtofile .texxt {
+    display: flex;
+    flex-flow: row;
+    padding: 10px 30px;
+}
+
+.prtofile .texxt ion-icon {
+    font-size: 17px;
+    margin-bottom: -5px;
+}
+
+.prtofile .texxt h1 {
+    font-size: 30px;
+}
+
+.prtofile .texxt button {
+    margin-left: 712px;
+    width: 16%;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+    transition: all 1s ease-in-out;
+}
+
+.prtofile .texxt button:hover {
+    transform: scale(1.1);
+}
+
+.prtofile .gallary .firstrow {
+    display: flex;
+    flex-flow: row;
+    margin-left: 64px;
+    padding: 25px 0;
+}
+
+.prtofile .gallary img {
+    width: 29%;
+    padding: 15px 10px;
+    translate: all 1s ease-in-out;
+}
+
+.prtofile .gallary img:hover {
+    transform: scale(1.2);
+}
+
+.prtofile .gallary .secrow {
+    display: flex;
+    flex-flow: row;
+    margin-left: 64px;
+    padding: 25px 0;
+}
+
+.prtofile .biginfo {
+    display: flex;
+    flex-flow: row;
+}
+
+.prtofile .info {
+    display: flex;
+    flex-flow: row;
+}
+
+.prtofile .info1 {
+    background-color: #f2f4fe;
+    width: 22%;
+    padding: 5px 10px;
+    margin-left: 87px;
+    border-radius: 15px;
+}
+
+.prtofile .info1 p {
+    padding: 5px 10px;
+}
+
+
+/* .prtofile #remove-outline {
+    color: gray;
+    font-size: 49px;
+    margin-left: -18px;
+}
+
+.prtofile ion-icon {
+    color: blue;
+    font-size: 49px;
+    margin-left: 616px; */
+
+.prtofile .info1 .person1 {
+    display: flex;
+    flex-flow: row;
+}
+
+.prtofile .info1 .person1 img {
+    border-radius: 54px;
+    width: 33%;
+    padding: 10px 16px;
+    height: 82px;
+}
+
+.prtofile .info1 h1 {
+    font-size: 17px;
+    margin-top: 21px;
+}
+
+.prtofile .info1 h5 {
+    font-size: 9px;
+    padding: 6px 0;
+}
+
+
+/*end prtofile*/
+
+
+/*start news*/
+
+.news {
+    padding: 90px 0;
+}
+
+.news button {
+    margin-left: 681px;
+    width: 10%;
+    height: 45px;
+    border-radius: 9px;
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.news button a {
+    color: white;
+    text-decoration: none;
+}
+
+.news .addres {
+    text-align: center;
+}
+
+.news .our {
+    display: flex;
+    flex-flow: row;
+    padding: 46px 0;
+    margin-left: 141px;
+}
+
+.news .our .our1 {
+    background-color: blue;
+    color: white;
+    width: 17%;
+    height: 311px;
+    border-radius: 13px;
+    padding: 15px 20px;
+    box-shadow: 10px 10px whitesmoke;
+}
+
+.news .our .our2 {
+    background-color: white;
+    color: black;
+    width: 18%;
+    height: 311px;
+    border-radius: 13px;
+    padding: 15px 20px;
+    margin-left: 80px;
+    box-shadow: 10px 10px whitesmoke;
+}
+
+.news .our .our3 {
+    background-color: white;
+    color: black;
+    width: 18%;
+    height: 311px;
+    border-radius: 13px;
+    padding: 15px 20px;
+    margin-left: 80px;
+    box-shadow: 10px 10px whitesmoke;
+}
+
+.news .our .our4 {
+    background-color: white;
+    color: black;
+    width: 18%;
+    height: 311px;
+    border-radius: 13px;
+    padding: 15px 20px;
+    margin-left: 80px;
+    box-shadow: 10px 10px whitesmoke;
+}
+
+.our .our1 .inside1 h3 {
+    padding: 25px 0px;
+}
+
+.our .our1 .inside1 h6 {
+    padding: 6px 0px;
+    color: #f2f4fe;
+    margin-top: -24px;
+}
+
+.our .our1 .inside1 h1 {
+    font-size: 20px;
+    padding: 17px 0px;
+}
+
+.our .our1 .inside1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.our .our2 .pers1 {
+    display: flex;
+    flex-flow: row;
+}
+
+.our .our3 .pers1 {
+    display: flex;
+    flex-flow: row;
+}
+
+.our .our4 .pers1 {
+    display: flex;
+    flex-flow: row;
+}
+
+.our .our2 .pers1 img {
+    border-radius: 35px;
+    width: 32%;
+    padding: 14px 6px;
+}
+
+.our .our3 .pers1 img {
+    border-radius: 35px;
+    width: 32%;
+    padding: 14px 6px;
+}
+
+.our .our4 .pers1 img {
+    border-radius: 35px;
+    width: 32%;
+    padding: 14px 6px;
+}
+
+.our .our2 .id {
+    padding: 22px 0px;
+}
+
+.our .our3 .id {
+    padding: 22px 0px;
+}
+
+.our .our4 .id {
+    padding: 22px 0px;
+}
+
+.our .our2 .id h3 {
+    font-size: 12px;
+}
+
+.our .our3 .id h3 {
+    font-size: 12px;
+}
+
+.our .our4 .id h3 {
+    font-size: 12px;
+}
+
+.our .our2 .id h6 {
+    font-size: 12px;
+    padding: 7px 0;
+    color: gray;
+}
+
+.our .our3 .id h6 {
+    font-size: 12px;
+    padding: 7px 0;
+    color: gray;
+}
+
+.our .our4 .id h6 {
+    font-size: 12px;
+    padding: 7px 0;
+    color: gray;
+}
+
+.our .our2 .inside2 {
+    padding: 5px 10px;
+}
+
+.our .our3 .inside2 {
+    padding: 5px 10px;
+}
+
+.our .our4 .inside2 {
+    padding: 5px 10px;
+}
+
+.our .our2 .inside2 h1 {
+    font-size: 26px;
+    padding: 9px 0;
+}
+
+.our .our3 .inside2 h1 {
+    font-size: 26px;
+    padding: 9px 0;
+}
+
+.our .our4 .inside2 h1 {
+    font-size: 26px;
+    padding: 9px 0;
+}
+
+.our .our2 .inside2 p {
+    color: gray;
+    font-size: 13px;
+    padding: 13px 0;
+}
+
+.our .our3 .inside2 p {
+    color: gray;
+    font-size: 13px;
+    padding: 13px 0;
+}
+
+.our .our4 .inside2 p {
+    color: gray;
+    font-size: 13px;
+    padding: 13px 0;
+}
+
+.our .our1 .inside2 a {
+    /* padding: 10px 0; */
+    text-decoration: none;
+}
+
+.our .our2 .inside2 a {
+    /* padding: 10px 0; */
+    text-decoration: none;
+}
+
+.our .inside2 #last-icon {
+    color: blue;
+}
+
+.our .our3 .inside2 a {
+    /* padding: 10px 0; */
+    text-decoration: none;
+}
+
+.our .our4 .inside2 a {
+    /* padding: 10px 0; */
+    text-decoration: none;
+}
+
+
+/*end our*/
+
+.stay .adress {
+    text-align: center;
+}
+
+.stay .adress h1 {
+    padding: 10px 0;
+}
+
+.stay .adress p {
+    color: gray;
+    padding: 10px 0;
+}
+
+.stay .adress span {
+    color: blue;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 138px;
+}
+
+.container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+}
+
+
+/*end stay*/
+
+
+/*start clients*/
+
+.clients {
+    padding: 120px 0;
+}
+
+.clients img {
+    padding: 15px 81px;
+}
+
+
+/* end clients*/
+
+
+/*start footer*/
+
+.footer {
+    width: 100%;
+    height: 550px;
+    background-color: #33374b;
+}
+
+.footer .address h1 {
+    padding: 0 83px;
+    color: #fff;
+    position: relative;
+    top: 141px;
+}
+
+.footer table {
+    padding: 109px 290px;
+}
+
+.footer th {
+    padding: 0 67px;
+}
+
+.footer h2 {
+    color: #fff;
+}
+
+.footer span {
+    color: blue;
+}
+
+.footer p {
+    padding: 6px 84px;
+    color: gray;
+}
+
+.footer input {
+    padding: 0px 26px;
+    margin: 0 16px;
+    border-radius: 17px;
+    height: 52px;
+}
+
+.footer button {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 138px;
+    margin: 6px 40px;
+}
+
+.footer hr {
+    width: 79%;
+    height: 2px;
+    margin: 15px 156px;
+    background-color: black;
+}
+
+.offf {
+    display: flex;
+    flex-flow: row;
+}
+
+.offf p {
+    color: white;
+    margin: 0 83px;
+}
+
+.offf span {
+    color: blue;
+}
+
+.offf ion-icon {
+    position: relative;
+    left: 400px;
+    margin: 0 15px;
+}

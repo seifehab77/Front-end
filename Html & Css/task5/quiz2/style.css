@@ -1,0 +1,151 @@
+    body {
+        background-color: #f5f5f578;
+    }
+    
+    div {
+        display: inline-block;
+    }
+    
+    .bigclass {
+        width: 24%;
+        margin: 20px 10px;
+    }
+    
+    .bgdiv {
+        width: 24%;
+        margin: 20px 1px;
+    }
+    
+    .bggdiv {
+        width: 24%;
+        margin: 20px 3px;
+        position: relative;
+        top: -3px;
+    }
+    
+    .biggdiv {
+        width: 24%;
+        margin: 20px 10px;
+    }
+    
+    .topdiv {
+        background-image: url(img/rsz_popular-item-bg.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+        text-align: center;
+        height: 320px;
+        margin: 10px 0;
+        /* box-shadow: 0px 11px 2px #00000052; */
+    }
+    
+    .topdiv img {
+        width: 25%;
+        border-radius: 90px;
+        margin: 9px 0;
+    }
+    
+    .topdiv h1 {
+        padding: 5px 5px;
+        font-size: 22px;
+    }
+    
+    .topdiv p {
+        padding: 10px 5px;
+        font-size: 22px;
+    }
+    
+    .topdiv #f2 {
+        color: gold;
+    }
+    
+    .toppdiv {
+        background-image: url(img/rsz_popular-item-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        height: 280px;
+        margin: 10px 0;
+        /* box-shadow: 0px 11px 2px #00000052; */
+        background-position: center bottom;
+    }
+    
+    .toppdiv img {
+        width: 25%;
+        border-radius: 90px;
+        margin: 5px 0;
+    }
+    
+    .toppdiv h1 {
+        padding: 5px 5px;
+        font-size: 22px;
+    }
+    
+    .toppdiv p {
+        padding: 0px 5px;
+        font-size: 22px;
+    }
+    
+    .toppdiv #f2 {
+        color: gold;
+    }
+    
+    .downdiv {
+        background-image: url(img/rsz_popular-item-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        height: 320px;
+        background-position: center bottom;
+        /* box-shadow: 0px 11px 2px #00000052; */
+    }
+    
+    .downdiv img {
+        width: 25%;
+        border-radius: 90px;
+        margin: 10px 0;
+    }
+    
+    .downdiv h1 {
+        padding: 10px 5px;
+        font-size: 22px;
+    }
+    
+    .downdiv p {
+        padding: 10px 5px;
+        font-size: 22px;
+    }
+    
+    .downdiv #f2 {
+        color: gold;
+    }
+    
+    .downndiv {
+        background-image: url(img/rsz_popular-item-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        height: 380px;
+        background-position: center bottom;
+        /* box-shadow: 0px 11px 2px #00000052; */
+    }
+    
+    .downndiv img {
+        width: 25%;
+        border-radius: 90px;
+        margin: 10px 0;
+    }
+    
+    .downndiv h1 {
+        padding: 10px 5px;
+        font-size: 22px;
+    }
+    
+    .downndiv p {
+        padding: 10px 5px;
+        font-size: 22px;
+    }
+    
+    .downndiv #f2 {
+        color: gold;
+    }

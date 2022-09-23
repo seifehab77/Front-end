@@ -1,0 +1,87 @@
+.fheader {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    margin: 20px -7px;
+}
+
+.fheader .text ul {
+    list-style: none;
+}
+
+.fheader span {
+    color: red;
+}
+
+.fheader ul li a {
+    text-decoration: none;
+    float: left;
+    margin: 11px 5px;
+    color: white;
+    font-size: 18px;
+    padding: 0 36px;
+}
+
+.sheader {
+    width: 100%;
+    height: 50px;
+    background-color: #f0fff036;
+    position: fixed;
+    margin: -20px -7px;
+}
+
+.sheader h1 {
+    padding: 11px 0;
+    margin: 0 30px;
+    color: #0080005c;
+}
+
+.sheader ul {
+    list-style: none;
+}
+
+.sheader ul li a {
+    text-decoration: none;
+    float: left;
+    margin: -2px 7px;
+    color: #0080005c;
+    font-size: 18px;
+}
+
+.sheader .y {
+    position: relative;
+    left: 1032px;
+    top: -53px;
+}
+
+.bigbox {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+
+.containr {
+    width: 22%;
+    background-color: #80808038;
+    float: left;
+    margin-left: 7px;
+    margin-top: 93px;
+}
+
+.containr img {
+    width: 330px;
+    height: -3px;
+}
+
+.box {
+    width: 22%;
+    background-color: #80808038;
+    float: left;
+    margin-left: 129px;
+    margin-top: 93px;
+}
+
+.box img {
+    width: 330px;
+    height: -3px;
+}
