@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.code-area {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+#htmlcode {
+    width: 50%;
+    margin: 10px 20px;
+}
+
+.preview-area {
+    width: 50%;
+}
+
+.preview-area iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

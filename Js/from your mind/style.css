@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+/* .form {
+    width: 50%;
+    height: 200px;
+    margin: 30px 60px;
+    display: none;
+} */
+
+
+/* navbar*/
+
+.nav1 {
+    width: 100%;
+    height: 90px;
+}
+
+.nav1 h1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: wheat;
+}
+
+.nav1 span:hover {
+    color: yellow;
+}
+
+.nav1 ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    margin: 10px 10px;
+}
+
+.nav1 ul li {
+    padding: 0 50px;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: wheat;
+}
+
+.nav1 ul li a:hover {
+    border-bottom: 2px solid red;
+}
+
+.nav1 ul li button {
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: blue;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav1 ul li button:hover {
+    transform: scale(1.1);
+}
+
+
+/* slider */
+
+.slider {
+    width: 100%;
+    height: 800px;
+}
+
+
+/* Cars */
+
+.cars {
+    width: 100%;
+    height: 350px;
+}
+
+.car1 {
+    display: flex;
+    flex-flow: row;
+}
+
+.images1 .big1 {
+    margin: 30px 249px;
+}
+
+.images1 .big1 img {
+    width: 282px;
+}
+
+.images1 .smal1 .row1 {
+    display: flex;
+    flex-flow: row;
+}
+
+.images1 .smal1 .row1 img {
+    width: 67%;
+}
+
+
+/* contact */
+
+.infoo {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+}
+
+.infoo .head h1 {
+    color: white;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.contactt {
+    margin: 80px 60px;
+    color: white;
+}
+
+.contactt .row2 {
+    display: flex;
+    flex-flow: row;
+}
+
+.contactt .row2 col {
+    text-align: center;
+}
+
+.phone,
+.face,
+.insta {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.phone {
+    color: red;
+}
+
+.face {
+    color: blue;
+}
+
+.insta {
+    color: crimson;
+}
+
+
+/* form */
+
+.form1 {
+    width: 55%;
+    height: 320px;
+    background-color: tomato;
+    color: white;
+    margin: 50px 30px;
+    display: none;
+}
+
+.edit3 {
+    margin: 10px 30px;
+}

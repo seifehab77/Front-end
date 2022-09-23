@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Dancing+Script:wght@400;700&family=Fjalla+One&family=Grechen+Fuemen&family=Indie+Flower&family=Irish+Grover&family=Roboto:wght@500&family=Zen+Antique+Soft&display=swap');
+.box1 {
+    background-image: url(img/dfff-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    position: relative;
+    top: 280px;
+}
+
+.text h1 {
+    margin: 10px 0;
+}
+
+.text p {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.box2 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.text2 p {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.bigbox {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.bigbox .img {
+    border-radius: 500px;
+    width: 50%;
+    margin: 0 75px;
+}
+
+.seif {
+    transition: all 0.5s ease-in
+}
+
+.seif:hover {
+    transform: scale(1.2);
+}
